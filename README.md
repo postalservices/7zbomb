@@ -41,14 +41,14 @@ Where `base_size` is \~430 MB (0.43 GB). The following is theoretical and assume
 
 This Python script creates a highly compressed multi-layered 7z bomb.
 
----
+
 
 ## Disclaimer
 
 **For educational use only.**  
 Running or extracting this outside of a controlled environment may crash your system or consume all disk space.
 
----
+
 
 ## Usage
 
@@ -64,7 +64,7 @@ After it's done:
 - Final bomb is `layer_50.7z`
 - All temp files are inside `decomp/`
 
----
+
 
 ## Clean Up
 
