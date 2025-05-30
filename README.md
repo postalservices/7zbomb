@@ -66,6 +66,8 @@ Temporary files will be stored under decomp/
 Clean-up:
 After testing or building just delete the entire working folder.
 
+--------------------------------------------------------
+
 ## Disclaimer
 
 This repository and all code within are for **educational purposes only**. Do **not** use this to target or harm systems. Misuse may be illegal and unethical.
