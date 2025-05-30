@@ -48,6 +48,11 @@ This Python script creates a highly compressed multi-layered 7z bomb.
 **For educational use only.**  
 Running or extracting this outside of a controlled environment may crash your system or consume all disk space.
 
+Levels 1–50 are separate zip bombs: Each level (from Level 1 to Level 50) is an independent zip bomb. You can choose to extract any individual layer without needing to extract all layers.
+
+**Customization:**
+The script is customizable, and you can modify it to generate as many layers as you want. Feel free to adjust the number of layers or the compression settings based on your needs.
+
 
 
 ## Usage
