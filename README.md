@@ -7,7 +7,7 @@ This tool is purely for **educational** and **research** purposes — mainly to 
 How does it work?
 
 * Starts with a highly compressible file (e.g. 430MB of repeated `A`s).
-* Compresses it using `7z` with LZMA2 for extreme size reduction (e.g. down to 68KB).
+* Compresses it using `7z` with LZMA2 for extreme size reduction (e.g. down to 23KB).
 * Recursively nests this `.7z` file inside new `.7z` containers.
 * Each level contains 16 copies of the previous archive, inflating uncompressed size massively while keeping disk size small.
 
