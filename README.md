@@ -41,7 +41,7 @@ Where `base_size` is \~430 MB (0.43 GB). The following is theoretical and assume
 
 **Warning:** This script builds a recursive 7z bomb that exponentially expands on extraction. While educational, it can easily consume tens or hundreds of gigabytes when fully unpacked.
 
-***Intended Use:***
+**Intended Use:**
 For educational or research purposes only.
 
 **Do not open the resulting bomb file on systems you care about unless you understand the consequences.**
