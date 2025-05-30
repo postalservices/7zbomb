@@ -37,28 +37,20 @@ Where `base_size` is \~430 MB (0.43 GB). The following is theoretical and assume
 
 --------------------------------------------------------
 
-Script Usage Instructions
-Warning: This script builds a recursive 7z bomb that exponentially expands on extraction. While educational, it can easily consume tens or hundreds of gigabytes when fully unpacked.
+**Script Usage Instructions**
 
-Intended Use:
+**Warning:** This script builds a recursive 7z bomb that exponentially expands on extraction. While educational, it can easily consume tens or hundreds of gigabytes when fully unpacked.
+
+***Intended Use:***
 For educational or research purposes only.
 
-Do not open the resulting bomb file on systems you care about unless you understand the consequences.
+**Do not open the resulting bomb file on systems you care about unless you understand the consequences.**
 
-Do not upload or share this file irresponsibly.
+**Do not upload or share this file irresponsibly.**
 
-How to Use Safely:
+**How to Use Safely:**
 Create a dedicated working folder:
 
-bash
-Copy
-mkdir BombSandbox && cd BombSandbox
-Copy the script inside and run it:
-
-bash
-Copy
-cp ../bombmaker.py .
-python3 bombmaker.py
 The script will:
 
 Generate a large, highly compressible file (payload.txt)
@@ -72,12 +64,7 @@ Save the final bomb as layer_50.7z
 Temporary files will be stored under decomp/
 
 Clean-up:
-After testing or building:
-
-bash
-Copy
-rm -rf decomp payload.7z layer_*.7z
-Or just delete the entire working folder.
+After testing or building just delete the entire working folder.
 
 ## Disclaimer
 
