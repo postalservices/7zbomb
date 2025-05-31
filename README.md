@@ -1,4 +1,4 @@
-By **shells**
+By **postal**
 
 This project builds a recursive 7z bomb, inspired by 42.zip. It uses ultra-compressed data that expands exponentially on extraction. The final archive is a tiny `.7z` file (e.g. 23 KB) but can extract into yottabytes of data
 
